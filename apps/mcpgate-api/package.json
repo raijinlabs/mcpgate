@@ -1,0 +1,16 @@
+{
+  "name": "@lucid/mcpgate-api",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "typecheck": "tsc -p ../../tsconfig.base.json --noEmit"
+  },
+  "dependencies": {
+    "@raijinlabs/passport": "workspace:*",
+    "@lucid/gateway-core": "workspace:*",
+    "@lucid/observability": "workspace:*",
+    "@lucid/metering": "workspace:*",
+    "@lucid/mcpgate": "workspace:*"
+  }
+}

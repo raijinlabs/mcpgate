@@ -1,0 +1,19 @@
+{
+  "name": "@lucid/mcpgate",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@raijinlabs/passport": "workspace:*",
+    "@lucid/gateway-core": "workspace:*",
+    "@lucid/metering": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  }
+}

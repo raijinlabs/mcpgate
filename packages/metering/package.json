@@ -1,0 +1,14 @@
+{
+  "name": "@lucid/metering",
+  "version": "1.0.0",
+  "description": "OpenMeter billing event client for Lucid platform",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
